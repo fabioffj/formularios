@@ -1,0 +1,12 @@
+body {
+    background-color: #202020;
+    color: antiquewhite;
+    display: flex;    
+}
+
+#site {
+    background-color: #303030;
+    width: 1024px;
+    padding: 20px;
+    margin: 10px auto;
+}
