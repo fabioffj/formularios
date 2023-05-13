@@ -20,6 +20,36 @@
                 <input type="email" name="E-mail" id="email" placeholder="exemplo@exemplo.com.br">
             </div>
             <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="Idade" id="idade" placeholder="Ex.: 18">
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <select name="Cidade" id="cidade">
+                    <option value="URU">Uruguaiana</option>
+                    <option value="POA">Porto Alegre</option>
+                    <option value="PEL'">Pelotas</option>
+                    <option value="CAX">Caxias do Sul</option>
+                    <option value="QUA">Quaraí</option>
+                </select>
+            </div>
+            <div>
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" name="Nascimento" id="nascimento">
+            </div>
+            <div>
+                <label for="hora">Hora:</label>
+                <input type="time" name="Hora" id="hora">
+            </div>
+            <fieldset>
+                <legend>Gênero</legend>
+                <input type="radio" name="Sexo" id="sexo-m" value="Masculino">
+                <label for="sexo-m">Masculino</label>
+                <br>
+                <input type="radio" name="Sexo" id="sexo-f" value="Feminino">
+                <label for="sexo-f">Feminino</label>
+            </fieldset>
+            <div>
                 <input type="submit" value="Enviar">
             </div>
         </form>
